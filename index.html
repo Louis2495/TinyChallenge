@@ -25,20 +25,26 @@
     }
 
     .star {
-    width: 110px;
-    height: 110px;
+    width: 150px;
+    height: 150px;
     margin: 0 auto 25px;
+    border-radius: 50%;
+    background: white;
     display: flex;
     align-items: center;
     justify-content: center;
-}
+    overflow: hidden;
+    box-shadow:
+        0 10px 30px rgba(0, 0, 0, 0.15),
+        0 0 0 8px rgba(255, 255, 255, 0.35);
+    }
 
-.star img {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-    display: block;
-}
+    .star img {
+        width: 125px;
+        height: 125px;
+        object-fit: contain;
+        display: block;
+    }
 
     h1 {
         margin: 0;
